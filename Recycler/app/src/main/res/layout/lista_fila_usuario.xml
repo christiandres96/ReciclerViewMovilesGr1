@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/boton_detalle"
+        android:layout_width="102dp"
+        android:layout_height="31dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/txtv_apellido"
+        android:text="DETAIL"
+        android:textSize="8sp" />
+
+    <TextView
+        android:id="@+id/txtv_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="nombre"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtv_apellido"
+        android:layout_width="match_parent"
+        android:layout_height="18dp"
+        android:layout_below="@id/txtv_nombre"
+        android:text="apellido" />
+
+    <TextView
+        android:id="@+id/txtv_cedula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="cedula" />
+
+    <Button
+        android:id="@+id/boton_like"
+        android:layout_width="56dp"
+        android:layout_height="31dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/txtv_apellido"
+        android:layout_marginEnd="115dp"
+        android:background="@color/like"
+        android:text="LIKE"
+        android:textColor="@color/letra"
+        android:textSize="8sp" />
+
+
+</RelativeLayout>
